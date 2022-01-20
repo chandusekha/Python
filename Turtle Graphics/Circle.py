@@ -1,0 +1,21 @@
+from turtle import *
+t1=Turtle()
+t1.begin_fill()
+t1.fillcolor("green")
+t1.circle(100)
+t1.end_fill()
+t1.begin_fill()
+t1.fillcolor("red")
+t1.circle(-50)
+t1.end_fill()
+t1.hideturtle()
+t1.reset()
+t1.circle(150,270)
+t1.reset()
+t1.circle(100,steps=6)
+
+t1.reset()
+t1.circle(100,steps=10)
+
+t1.reset()
+t1.circle(100,steps=4)

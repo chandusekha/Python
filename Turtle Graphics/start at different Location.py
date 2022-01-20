@@ -1,0 +1,11 @@
+from turtle import *
+t1=Turtle()
+t1.up()
+t1.goto(0,-100)
+t1.down()
+t1.circle(100)
+t1.up()
+t1.goto(100,0)
+t1.down()
+t1.circle(150,293)
+t1.hideturtle()
